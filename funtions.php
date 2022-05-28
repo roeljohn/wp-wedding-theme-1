@@ -1,0 +1,4 @@
+<?php
+/**
+ * Functions and definitions
+ */

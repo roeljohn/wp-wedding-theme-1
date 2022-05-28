@@ -7,7 +7,8 @@ get_header(); ?>
 
 <?php
 /**
- * Last one to be called if home.php and front-page.php can find in wp
+ * This is the same as index.php but this time home.php will call first instead index.php
+ * If wp can't see or find front-page.php
  */
 if ( have_posts() ) {
 
