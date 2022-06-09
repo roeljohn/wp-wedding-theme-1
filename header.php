@@ -1,6 +1,8 @@
 <?php
 /**
- * The header.
+ * The header.php contains the head section of a WordPress site, and it is commonly called at the start 
+ * of all the template files. It usually contains the header information, analytics, calls to CSS files, 
+ * site navigation, page titles, site logo, etc.
  */
 
 ?>

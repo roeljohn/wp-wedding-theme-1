@@ -1,6 +1,7 @@
 <?php
 /**
- * The template for displaying search results pages
+ * Search results in WordPress use the template file search.php. 
+ * If it doesn’t exist, then search results are rendered from index.php.
  */
 
 get_header();

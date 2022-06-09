@@ -1,12 +1,9 @@
 <?php
 /**
- * The template for displaying 404 pages (not found)
+ * Likewise, 404 template files are called in this order:
  *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
+ * 404.php
+ * index.php
  */
 
 get_header();

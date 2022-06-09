@@ -1,6 +1,12 @@
 <?php
 /**
- * The template for displaying search results pages
+ * Rendering category archive index pages uses the following path in WordPress:
+
+ * category-{slug}.php – If the category’s slug is news, WordPress will look for category-news.php.
+ * category-{id}.php – If the category’s ID is 6, WordPress will look for category-6.php.
+ * category.php
+ * archive.php
+ * index.php
  */
 
 get_header();
@@ -12,7 +18,6 @@ the_archive_title( '<h1 class="page-title">This is category.php ', '</h1>' );
 			?>
 
 	<?php
-	// Start the Loop.
 	while ( have_posts() ) {
 		the_post();
 
