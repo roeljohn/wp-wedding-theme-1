@@ -1,6 +1,6 @@
 <?php
 /**
- * The searchform.php template.
+ * The searchform.php template. You can create your own search form in this template
  *
  * Used any time that get_search_form() is called.
  */
