@@ -22,12 +22,12 @@ $wp_default_comment_count = get_comments_number();
 		?>
 		<h2 class="comments-title">
 			<?php if ( '1' === $wp_default_comment_count ) : ?>
-				<?php esc_html_e( '1 comment', 'wp-default' ); ?>
+				<?php esc_html_e( '1 comment', 'wp-playground' ); ?>
 			<?php else : ?>
 				<?php
 				printf(
 					/* translators: %s: Comment count number. */
-					esc_html( _nx( '%s comment', '%s comments', $wp_default_comment_count, 'Comments title', 'twentytwentyone' ) ),
+					esc_html( _nx( '%s comment', '%s comments', $wp_default_comment_count, 'Comments title', 'wp-playground' ) ),
 					esc_html( number_format_i18n( $wp_default_comment_count ) )
 				);
 				?>

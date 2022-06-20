@@ -24,7 +24,7 @@ if ( have_posts() ) {
 					'We found %d result for your search.',
 					'We found %d results for your search.',
 					(int) $wp_query->found_posts,
-					'wp-default'
+					'wp-playground'
 				)
 			),
 			(int) $wp_query->found_posts
