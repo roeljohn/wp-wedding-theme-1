@@ -8,7 +8,7 @@
  * 
  * If front-page.php exists, it will override the home.php template
  * 
- * index.php last one to be called if home.php and front-page.php can find in wp
+ * index.php last one to be called if home.php and front-page.php can't find in wp
  */
 
 
