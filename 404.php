@@ -9,9 +9,9 @@
 get_header();
 ?>
 
-<?php esc_html_e( 'Error 404', 'wp-playground' ); ?></h1>
+<?php esc_html_e( 'Error 404', 'wp-wedding-theme-one' ); ?></h1>
 
-<?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'wp-playground' ); ?></p>
+<?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'wp-wedding-theme-one' ); ?></p>
 <?php get_search_form(); ?>
 
 <?php

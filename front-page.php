@@ -17,6 +17,6 @@
 get_header(); ?>
 
 <?php 
-_e( 'A Static Homepage', 'wp-playground' );
+_e( 'A Static Homepage', 'wp-wedding-theme-one' );
 
 get_footer();
